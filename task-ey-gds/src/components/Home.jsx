@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   // Sample data for featured auctions
   const featuredAuctions = [
-    { id: 1, title: 'Auction Item 1', description: 'Description 1', image: 'pexels1.jpg' },
-    { id: 2, title: 'Auction Item 2', description: 'Description 2', image: 'pexels2.jpg' },
-    { id: 3, title: 'Auction Item 3', description: 'Description 3', image: 'pexels3.jpg' },
+    { id: 1, title: 'Auction Item 1', description: 'Description 1', image: '/pexels1.jpg' },
+    { id: 2, title: 'Auction Item 2', description: 'Description 2', image: '/pexels2.jpg' },
+    { id: 3, title: 'Auction Item 3', description: 'Description 3', image: '/pexels3.jpg' },
   ];
 
   return (
